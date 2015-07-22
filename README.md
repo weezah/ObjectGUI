@@ -9,7 +9,7 @@ The current implementation offers a subset of serializable fields: int, float, b
 
 ## Usage
 
-* ObjectGUI
+* ObjectGUI  
    Contains the link to the monobehaviour to be drawn.
 
 * ObjectGUIManager  
