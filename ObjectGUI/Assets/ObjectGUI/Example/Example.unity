@@ -113,16 +113,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c020b57051e8d492a8993e4eb4367a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangedFloat: 0
   intField: 0
+  floatField: 0
+  rangedFloat: 0
+  rangedIntField: 0
   boolField: 0
   stringField: 
   vector2Field: {x: 0, y: 0}
   vector3Field: {x: 0, y: 0, z: 0}
   colorField: {r: 0, g: 0, b: 0, a: 0}
-  structField:
-    x: 0
-  objectField: {fileID: 0}
 --- !u!1 &1329232864
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,16 +149,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c020b57051e8d492a8993e4eb4367a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rangedFloat: 0
   intField: 0
+  floatField: 0
+  rangedFloat: 0
+  rangedIntField: 5
   boolField: 0
   stringField: 
   vector2Field: {x: 0, y: 0}
   vector3Field: {x: 0, y: 0, z: 0}
   colorField: {r: 0, g: 0, b: 0, a: 0}
-  structField:
-    x: 0
-  objectField: {fileID: 0}
 --- !u!4 &1329232866
 Transform:
   m_ObjectHideFlags: 0
@@ -239,8 +237,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 10
-    height: 10
+    width: 32
+    height: 32
   showGUI: 1
 --- !u!4 &1888774013
 Transform:
